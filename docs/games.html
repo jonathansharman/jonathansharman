@@ -3,18 +3,21 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Jonathan Sharman: Games</title>
-	<meta name="description" content="Jonathan Sharman: Games">
+	<title>Games | Jonathan Sharman</title>
+	<meta name="description" content="Games by Jonathan Sharman.">
 	<meta name="author" content="Jonathan Sharman">
 
 	<link rel="stylesheet" href="style.css">
 	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="games.js"></script>
 </head>
 
 <body>
 	<h1>Jonathan Sharman</h1>
 	<ul class="nav">
-		<li class="nav"><a href="index.html">About</a></li>
+		<li class="nav"><a href="about.html">About</a></li>
 		<li class="nav"><a href="research.html">Research</a></li>
 		<li class="nav active"><a href="games.html">Games</a></li>
 		<li class="nav"><a href="conlanging.html">Conlanging</a></li>
@@ -22,11 +25,17 @@
 		<li class="nav"><a href="contact.html">Contact</a></li>
 	</ul>
 
-	<ul>
-		<li><a href="disentangle.html">Disentangle</a></li>
-		<li><a href="hex-snake.html">Hex Snake</a></li>
-		<li><a href="soroban.html">Soroban simulator</a></li>
-	</ul>
+	<p style="text-align:center">
+		<button id="disentangle" type="button">Disentangle</button>
+		<button id="hex-snake" type="button">Hex Snake</button>
+		<button id="soroban" type="button">Soroban Simulator</button>
+	</p>
+
+	<div style="text-align:center">
+		<iframe id="game_frame" marginwidth=0 marginheight=0 width=640 height=480 scrolling="no" hidden=true></iframe>
+	</div>
+
+	<p id="instructions" style="text-align:center" hidden=true></div>
 </body>
 
 </html>
