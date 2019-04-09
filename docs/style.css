@@ -2,8 +2,9 @@ body {
 	color: #e0e0e0;
 	background-color: #255075;
 	font-family: Helvetica;
-	max-width: 960px;
+	max-width: 920px;
 	margin: auto;
+	text-align: justify;
 }
 
 a:link {
@@ -53,6 +54,12 @@ button {
 }
 button:hover {
 	background-color: #5085c0;
+}
+
+.game_panel {
+	width:640;
+	text-align: center;
+	margin:0 auto;
 }
 
 iframe {
