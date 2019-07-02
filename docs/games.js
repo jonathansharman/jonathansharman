@@ -20,6 +20,11 @@ function process_hash() {
 			( "https://jonathansharman.github.io/disentangle/"
 			, "Drag the dots to avoid intersections."
 			);
+	} else if (hash == "#unnatural-selection") {
+		load_game
+			( "https://jonathansharman.github.io/unnatural-selection/"
+			, "Try to make every genome in the population match the target genome. Press the \"Breed\" button to create the next generation with parents chosen from the current one. Click and drag to toggle genomes - selected genomes have double chances to be chosen as a parent. Use the \"radiation\" slider to adjust the rate of mutation per nucleotide per generation.<br><br>Shortcuts:<ul><li>Space: breed</li><li>S: Change the default selection</li><li>G: Show/hide guide</li><li>Q/W/E/R: Min/less/more/max radiation</li></ul>"
+			);
 	} else if (hash == "#hex-snake") {
 		load_game
 			( "https://jonathansharman.github.io/hex-snake/"
