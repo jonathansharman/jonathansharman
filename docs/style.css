@@ -1,3 +1,7 @@
+html {
+	padding-top: 12px;
+}
+
 body {
 	color: #e0e0e0;
 	background-color: #255075;
@@ -65,4 +69,10 @@ button:hover {
 iframe {
 	border: none;
 	overflow: hidden;
+}
+
+img.logo {
+	width:100%;
+	margin:auto;
+	margin-top:50px;
 }
